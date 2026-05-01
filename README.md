@@ -8,21 +8,21 @@ A collection of specialized skills for AI agents, designed to work with opencode
 
 ```bash
 # Clone all skills to your agent's skill directory
-git clone https://github.com/kaka/skills.git ~/.agents/skills
+git clone https://github.com/kaka-ruto/skills.git ~/.agents/skills
 ```
 
 ### Install RubyLLM Skills Only
 
 ```bash
 # Clone only RubyLLM skills
-git clone https://github.com/kaka/skills.git ~/.agents/skills/rubyllm
+git clone https://github.com/kaka-ruto/skills.git ~/.agents/skills/rubyllm
 ```
 
 ### Install Core Skills Only
 
 ```bash
 # Clone repository
-git clone https://github.com/kaka/skills.git /tmp/skills
+git clone https://github.com/kaka-ruto/skills.git /tmp/skills
 
 # Copy core skills
 cp -r /tmp/skills/continuous-development ~/.agents/skills/
@@ -39,7 +39,7 @@ The entire repository is only ~200KB, so cloning everything is fast:
 
 ```bash
 # Clone everything (only ~200KB)
-git clone https://github.com/kaka/skills.git /tmp/skills
+git clone https://github.com/kaka-ruto/skills.git /tmp/skills
 
 # Copy only the skills you need
 cp -r /tmp/skills/rubyllm/tools ~/.agents/skills/rubyllm-tools
@@ -54,7 +54,7 @@ rm -rf /tmp/skills
 
 ```bash
 # Clone without files, then select specific skills
-git clone --filter=blob:none --sparse https://github.com/kaka/skills.git ~/.agents/skills/rubyllm-tools
+git clone --filter=blob:none --sparse https://github.com/kaka-ruto/skills.git ~/.agents/skills/rubyllm-tools
 cd ~/.agents/skills/rubyllm-tools
 git sparse-checkout init --cone
 git sparse-checkout set rubyllm/tools
@@ -68,7 +68,7 @@ rm -rf rubyllm
 
 ```bash
 # Clone to any directory your agent uses
-git clone https://github.com/kaka/skills.git ~/my-agent-skills/rubyllm
+git clone https://github.com/kaka-ruto/skills.git ~/my-agent-skills/rubyllm
 ```
 
 ## Available Skills
